@@ -1,6 +1,6 @@
 # web.teste
  
-Desafioas de HTML5 e CSS3
+Espaço para treinar HTML5 e CSS3
 
 <a href="https://pedrorodrigolb.github.io/web.teste/01-Blog/index.html">Site Blog</a>
 
