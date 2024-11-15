@@ -1,0 +1,160 @@
+@charset   "UTF-8";
+
+
+@font-face{
+    font-family: "Young Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+    font-weight: 400, 600, 700;
+}
+
+
+:root{
+
+    --cor0: hsl(0, 0%, 100%);
+    
+    --cor1: hsl(30, 54%, 90%);
+    --cor2: hsl(30, 18%, 87%);
+    --cor3: hsl(30, 10%, 34%);
+    --cor4: hsl(24, 5%, 18%);
+
+    --cor5:hsl(14, 45%, 36%);
+
+    --cor6: hsl(332, 51%, 32%);
+    --cor7: hsl(330, 100%, 98%);
+
+    --font-young_serif: "Young Serif", serif;
+    --fonte-outfit: "Outfit", cursive;
+    
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    background-color: var(--cor0);
+    min-width: 375px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+header h1 {
+    color: var(--cor4);
+    font-family: var(--font-young_serif);
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+header h2 {
+    font-family: var(--font-young_serif);
+    color: var(--cor5);
+    padding-left: 5px;
+}
+
+header p{
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+header ul{
+    list-style-position: inside;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+header ol{
+    list-style-position: inside;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+header li {
+    margin: 10px;
+}
+
+aside{
+    background-color: var(--cor7);
+    font-family: var(--fonte-outfit);
+    padding: 15px;
+    border-radius: 10px;
+}
+aside > h3{
+    color: var(--cor6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+aside ul {
+    color: var(--cor4);
+}
+
+
+dl{
+    font-family: var(--fonte-outfit);
+    padding: 10px;
+}
+dl ul{
+    color: var(--cor3);
+}
+
+
+dt {
+    font-family: var(--fonte-outfit);
+    padding: 10px;
+    border-top: 1px solid;
+    border-top-color: var(--cor2);
+}
+dt li {
+    color: var(--cor3);
+}
+
+
+dd{
+
+    font-family: var(--fonte-outfit);
+    padding: 10px;
+    border-top: 1px solid;
+    border-top-color: var(--cor2);
+}
+dd p{
+    color: var(--cor3);
+}
+dd  ul{
+    color:var(--cor3);
+    columns: 2;
+    list-style: none;
+}
+
+
+div.linha{
+    border-top: 1px solid;
+    border-top-color: var(--cor2);
+}
+div strong{
+    color: var(--cor5);
+}
