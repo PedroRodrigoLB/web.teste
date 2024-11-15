@@ -45,7 +45,7 @@ body{
 
 header{
     background-color: var(--cor0);
-    min-width: 375px;
+    min-width: 320px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 50px;
